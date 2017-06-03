@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Books_Management_System.BorrowPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Books_Management_System"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Margin="0,-33,10,10" Height="743" VerticalAlignment="Bottom">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/pic8.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="returnbook" FontSize="37" HorizontalAlignment="Left" Margin="222,37,0,0" TextWrapping="Wrap" Text="归还" VerticalAlignment="Top" Height="51" Width="83"/>
+        <TextBlock x:Name="bookname" FontSize="25" HorizontalAlignment="Left" Margin="77,132,0,0" TextWrapping="Wrap" Text="书名" VerticalAlignment="Top" Height="51" Width="83"/>
+        <TextBlock x:Name="returnman" FontSize="25" HorizontalAlignment="Left" Margin="77,244,0,0" TextWrapping="Wrap" Text="借书人" VerticalAlignment="Top" Height="46" Width="115"/>
+        <TextBlock x:Name="returnmanID" FontSize="25" HorizontalAlignment="Left" Margin="77,341,0,0" TextWrapping="Wrap" Text="借书人ID" VerticalAlignment="Top" Height="46" Width="115"/>
+        <TextBox x:Name="bookname1"  FontSize="25" HorizontalAlignment="Left" Margin="222,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <TextBox x:Name="returnman1"  FontSize="25" HorizontalAlignment="Left" Margin="222,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <TextBox x:Name="returnmanID1"  FontSize="25" HorizontalAlignment="Left" Margin="222,336,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <Button x:Name="comfirm" Content="确定" FontSize="25" HorizontalAlignment="Left" Margin="165,615,0,0" VerticalAlignment="Top" Width="115" Click="comfirm_click"/>
+        <Button x:Name="cencel" Content="取消" FontSize="25" HorizontalAlignment="Left" Margin="430,615,0,0" VerticalAlignment="Top" Width="113" Click="cencel_click"/>
+
+        <TextBlock x:Name="borrow" FontSize="37" HorizontalAlignment="Left" Margin="722,37,0,0" TextWrapping="Wrap" Text="借出" VerticalAlignment="Top" Height="51" Width="83"/>
+        <TextBlock x:Name="bookname2" FontSize="25" HorizontalAlignment="Left" Margin="577,132,0,0" TextWrapping="Wrap" Text="书名" VerticalAlignment="Top" Height="51" Width="83"/>
+        <TextBlock x:Name="borrowman2" FontSize="25" HorizontalAlignment="Left" Margin="577,244,0,0" TextWrapping="Wrap" Text="借书人" VerticalAlignment="Top" Height="46" Width="115"/>
+        <TextBlock x:Name="borrowmanID" FontSize="25" HorizontalAlignment="Left" Margin="577,341,0,0" TextWrapping="Wrap" Text="借书人ID" VerticalAlignment="Top" Height="46" Width="115"/>
+        <TextBox x:Name="bookname3"  FontSize="25" HorizontalAlignment="Left" Margin="722,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <TextBox x:Name="borrowman3"  FontSize="25" HorizontalAlignment="Left" Margin="722,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <TextBox x:Name="borrowmanID1"  FontSize="25" HorizontalAlignment="Left" Margin="722,336,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <Button x:Name="comfirm1" Content="确定" FontSize="25" HorizontalAlignment="Left" Margin="661,615,0,0" VerticalAlignment="Top" Width="115" Click="comfirm1_click"/>
+        <Button x:Name="cencel1" Content="取消" FontSize="25" HorizontalAlignment="Left" Margin="930,615,0,0" VerticalAlignment="Top" Width="113" Click="cencel1_click"/>
+    </Grid>
+
+</Page>

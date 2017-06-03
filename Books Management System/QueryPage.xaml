@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Books_Management_System.QueryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Books_Management_System"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Height="720" VerticalAlignment="Bottom">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/pic3.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="bookname" FontSize="25" HorizontalAlignment="Left" Margin="217,132,0,0" TextWrapping="Wrap" Text="请输入ISBN编码" VerticalAlignment="Top" Height="51" Width="199"/>
+        <TextBlock x:Name="returnman" FontSize="25" HorizontalAlignment="Left" Margin="335,314,0,0" TextWrapping="Wrap" Text="简介" VerticalAlignment="Top" Height="46" Width="115"/>
+        <TextBlock x:Name="returnmanID" FontSize="25" HorizontalAlignment="Left" Margin="333,523,0,0" TextWrapping="Wrap" Text="作者" VerticalAlignment="Top" Height="46" Width="115"/>
+        <TextBox x:Name="isbn"  FontSize="25" HorizontalAlignment="Left" Margin="500,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <TextBlock x:Name="infotext"  FontSize="25" HorizontalAlignment="Left" Margin="500,314,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="204" Width="701"/>
+        <TextBlock x:Name="writertext"  FontSize="25" HorizontalAlignment="Left" Margin="500,523,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="46" Width="321"/>
+        <Button x:Name="cencel" Content="返回" FontSize="25" HorizontalAlignment="Left" Margin="335,631,0,0" VerticalAlignment="Top" Width="113" Click="cencel_Click"/>
+        <Button x:Name="query" Content="查询" FontSize="25" HorizontalAlignment="Left" Margin="882,132,0,0" VerticalAlignment="Top" Width="113" Click="query_Click"/>
+        <Button x:Name="share" Content="共享" FontSize="25" HorizontalAlignment="Left" Margin="708,631,0,0" VerticalAlignment="Top" Width="113" Click="share_Click_1"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Books query" VerticalAlignment="Top" FontSize="50"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="335,231,0,0" TextWrapping="Wrap" Text="书名" VerticalAlignment="Top" FontSize="25"/>
+        <TextBlock x:Name="booknamee" HorizontalAlignment="Left" Margin="500,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="53" Width="321" FontSize="25"/>
+    </Grid>
+</Page>

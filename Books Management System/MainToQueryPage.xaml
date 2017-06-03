@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Books_Management_System.MainToQueryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Books_Management_System"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Height="720" VerticalAlignment="Bottom">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/pic3.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="bookname" FontSize="25" HorizontalAlignment="Left" Margin="352,132,0,0" TextWrapping="Wrap" Text="书名 :" VerticalAlignment="Top" Height="51" Width="83"/>
+        <TextBlock x:Name="returnman" FontSize="25" HorizontalAlignment="Left" Margin="320,244,0,0" TextWrapping="Wrap" Text="总库存 :" VerticalAlignment="Top" Height="46" Width="115"/>
+        <TextBlock x:Name="returnmanID" FontSize="25" HorizontalAlignment="Left" Margin="301,325,0,0" TextWrapping="Wrap" Text="当前库存 :" VerticalAlignment="Top" Height="46" Width="115"/>
+        <TextBlock x:Name="bookname1"  FontSize="25" HorizontalAlignment="Left" Margin="500,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <TextBlock x:Name="total"  FontSize="25" HorizontalAlignment="Left" Margin="500,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <TextBlock x:Name="current"  FontSize="25" HorizontalAlignment="Left" Margin="500,325,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="321"/>
+        <Button x:Name="cencel" Content="返回" FontSize="25" HorizontalAlignment="Left" Margin="1063,640,0,0" VerticalAlignment="Top" Width="113" Click="cencel_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="馆藏图书详细信息" VerticalAlignment="Top" FontSize="50"/>
+        <TextBlock x:Name="textBlock1" FontSize="25" HorizontalAlignment="Left" Margin="157,440,0,0" TextWrapping="Wrap" Text="外借信息 :" VerticalAlignment="Top" Height="46" Width="115"/>
+        <TextBlock x:Name="borrower" HorizontalAlignment="Left" Margin="333,440,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="183" Width="334" FontSize="30"/>
+        <TextBlock x:Name="borrower1" HorizontalAlignment="Left" Margin="720,440,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="183" Width="334" FontSize="30"/>
+    </Grid>
+</Page>
